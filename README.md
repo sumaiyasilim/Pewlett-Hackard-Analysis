@@ -7,8 +7,7 @@ The purpose of this analysis is to determine the number of retiring employees pe
 -	Unique Titles
     -	This table shows us the current employees from the retirement titles, which is now about half of that table at 72,459. Although this dataset shows us the employees and their current roles, the table is too congested for us to be able to break it down and see each role separately
 -	Retiring Titles
-    -	This table now only includes the count of employees by their most recent job title and who are about to retire. With only two column titles, this table is more readable, as shown in the picture below
-*insert retiring titles table 
+    -	This table now only includes the count of employees by their most recent job title and who are about to retire. With only two column titles, this table is more readable, as shown in the picture below 
 <img width="200" alt="retiring titles" src="https://user-images.githubusercontent.com/64383146/174540711-23a10025-447a-4b43-8eec-0f56a94b4ff4.png">
 
 -	Mentorship Eligibility 
@@ -45,3 +44,8 @@ The breakdown taken from the mentorship eligibility excel sheet looks like:
 When looking at the difference between the numbers in the “retiring titles” table and “mentorship eligibility” tables, we can see that there are some titles who have more people who can mentor compared to how many of them there are. For example, there are about 26,000 senior engineers but only about 170 eligible mentors, while there are about 7,600 staff and there are about 580 of them who are eligible to mentor before they retire. This shows that for titles like senior engineers and senior staff, there might be less people having to mentor a bigger group of new employees. 
 
 Even though there are only 2 managers retiring, neither of them are eligible to be mentors, so this will make things difficult when trying to find people to mentor the new employees with that title.
+
+### Additional tables
+
+An additional table we could add that could provide better help for the “silver tsunami” would be to change the birth dates of the eligible mentors, in order to provide roles like the senior engineer and senior staff more mentors. We do this by changing the employees birth dates from between January 1, 1965 and December 31, 1965 to between June 1, 1964 and December 31, 1965. This opens the eligibility up and allows us to get more mentors for those roles. We would get **1,221 for senior engineers** and **1,138 for senior staff**. We could also get **584** mentors for technique leaders as their mentor count is low with the previous birth dates.
+
